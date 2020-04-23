@@ -1,0 +1,36 @@
+{
+  "name": "seinjs-materials",
+  "version": "0.1.6",
+  "description": "Material library for Sein.js.",
+  "scripts": {
+    "build": "bash ./build.sh",
+    "prepublishOnly": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+git@github.com:SeinJS/Sein.js.git"
+  },
+  "keywords": [
+    "Game engine",
+    "Sein",
+    "Material",
+    "Effect"
+  ],
+  "authors": [{
+    "name": "Tianyu Dai (dtysky)",
+    "email": "dtysky@outlook.com"
+  }],
+  "license": "MIT",
+  "bugs": {
+    "url": "http://github.com/SeinJS/Sein.js/issues"
+  },
+  "files": [
+    "README.md",
+    "**/*.js",
+    "**/*.d.ts",
+    "**/README.md"
+  ],
+  "homepage": "http://github.com/SeinJS/Sein.js#readme",
+  "devDependencies": {},
+  "dependencies": {}
+}

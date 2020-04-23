@@ -1,0 +1,5 @@
+(function (global, factory) {
+  typeof exports === 'object' && typeof module !== 'undefined' ? factory(exports) :
+    typeof define === 'function' && define.amd ? define(['exports'], factory) :
+      (factory((global.Sein.MetaSMaterials.{{MATERIAL_NAME}} = {}, e.SeinJS.MetaSMaterials.{{MATERIAL_NAME}})));
+}(this, (function (exports) {
